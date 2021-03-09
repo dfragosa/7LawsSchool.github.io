@@ -1,0 +1,147 @@
+body {
+	background-color: : #4f4f4f;
+	color: #555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+.clr {
+	clear: both;
+}
+.about-container1 {
+	width: 80%;
+	margin: auto;
+	box-sizing: border-box;
+	border: 3px #ccc solid;
+	padding: 10px;
+}
+.about-container2 {
+	width: 80%;
+	margin: auto;
+	border: 3px #ccc solid;
+	box-sizing: border-box;
+	padding: 10px;
+}
+.about-image1 {
+	float: left;
+	padding: 0 6px;
+	width: 24.99999%;
+	
+}
+.about-image2 {
+	padding: 10px;
+	max-width: 100px;
+	height: auto;
+}
+.button {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+}
+.button:hover {
+	background: red;
+	color: #fff;
+}
+.contact1-form {
+	padding: 20px;
+}
+#main-header {
+	background-color: #4AB248; /*coral; was to 1st color picked*/
+	color: #fff;
+	font-family: "florence", cursive;
+}
+.contact1-form{
+	padding: 20px;
+}
+
+.contact1-form .form-group {
+	padding-bottom: 15px;
+}
+
+.contact1-form label {
+	display:block;
+}
+
+.contact1-form  .form-group input[type="text"], textarea {
+	padding: 8px;
+	width: 100%;
+}
+#navbar {
+	background-color: #333;
+	color: #fff;
+}
+#navbar ul {
+	padding-right: 0;
+	list-style: none;
+}
+#navbar li {
+	display: inline; /* puts the links side by side */
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+#navbar a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+#showcase {
+	background-image: url('../images/dark_green.jpg'); /* url('../images/fireabstract1.jpg'); 1st image used */
+	background-position: center center;
+	background-repeat: round;
+	min-height: 300px; /* prevenst word from leaving boundary*/
+	margin-bottom: 30px;
+	text-align: center;
+}
+#showcase h1 {
+	color: #fff;
+	font-size: 50px;
+	line-height: 1.6em;
+	padding-top: 30px;
+	font-family: "Palatino Linotype", "book Antiqua", "Palatino", serif
+}
+#main {
+	float: left;
+	width: 70%;
+	padding: 0 30px;
+	box-sizing:  border-box;
+}
+#sidebar {
+	float: right;
+	width: 30%;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	box-sizing: border-box;
+	font-family: "Palatino Linotype", "book Antiqua", "Palatino", serif
+}
+#main-footer {
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+#main-footer a {
+	color: #fff;
+}
+/* below makes it completly responsive if we go donw small some stuff will float and look messed up
+so if its under 600px we dont want it to float  */
+@media(max-width: 600px;) {
+	#main{
+		width: 100%;
+		float: none;
+	}
+	#sidebar {
+	width: 100%;
+	float: none;
+	}
+}
